@@ -215,6 +215,9 @@ public class TasksFragment extends Fragment {
 			values=null;
 		}
 	}
+	public void setTasks(List<Task> tasks){
+		values=tasks;
+	}
 
 	public void update(boolean reset) {
 		if (!created)
